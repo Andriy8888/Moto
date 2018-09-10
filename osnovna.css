@@ -1,0 +1,78 @@
+
+/* МЕНЮ */
+.menu {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 165px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+.menu:hover {
+  background: #2EE59D;
+  box-shadow: 5px 20px 20px rgba(46,229,157,.6);
+  color: white;
+   transform: translateY(-7px);
+   -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.menu:active {
+  transform: translateY(7px);
+  margin-top: 2px;
+  border-bottom: 1px solid #047F00;
+}
+/* інше */
+a {
+	text-decoration: none;
+}
+.verh {
+	font-size: 30px;
+	text-align: center;
+	margin: 20px;
+	font-family: Impact, fantasy;
+}
+
+.fotograf {
+	height: 200px;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+body {
+	background-image: url(nebo_oblaka_svet_leto_84366_1366x768.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	width: auto;
+}
+
+.text_vibir {
+	text-align: center;
+	font-size: 22px;
+	color: #000000;
+}
+/*Збільшення зображень*/
+
+.vibirka table td:hover {
+	margin: 10px;
+    -webkit-transform: scale(1.4,1.4);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 600ms;
+    -moz-transform: scale(1.4,1.4);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 600ms;
+}
